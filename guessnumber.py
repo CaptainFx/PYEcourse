@@ -1,2 +1,5 @@
 guess = eval(input())
-print("猜{}了".format("对"if guess == 66 else "错"))
+if guess > 66 or guess < 66:
+    print("猜错了")
+else:
+    print("猜对了")
